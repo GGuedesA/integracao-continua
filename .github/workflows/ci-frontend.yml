@@ -23,6 +23,7 @@ jobs:
       - name: Angula
         run: npm i -g @angular/cli@15
       - name: Build
+        working-directory: sgcmapp/
         run: ng build
         
         
@@ -42,6 +43,7 @@ jobs:
       - name: Angula
         run: npm i -g @angular/cli@15
       - name: Test
+        working-directory: sgcmapp/
         run: ng test --no-watch --no-progress --browsers=ChromeHeadless  
         
   merge:
