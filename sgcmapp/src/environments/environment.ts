@@ -1,3 +1,3 @@
 export const environment = {
-    API_URL: 'https://localhost:9000'
+    API_URL: 'sgcmapi-grupo3.up.railway.app:9000'
 };
